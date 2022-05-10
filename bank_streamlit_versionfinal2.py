@@ -7,7 +7,7 @@ Created on Sun Apr 24 21:33:44 2022
 
 @author: PHAM NGOC SA Clément
 """
-!pip install --upgrade streamlit-option-menu
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 #import streamlit.components.v1 as html
