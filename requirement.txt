@@ -1,7 +1,12 @@
-conda create --name streamlit-test python=3.7
 pip install streamlit
-streamlit run streamlit_app.py
+pip install pipreqs
+
+pipreqs /C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda
+streamlit run bank_streamlit_versionfinal.py
 pip install sklearn
 
 pip install streamlit-option-menu
-$ pipenv install
+pipenv install
+
+freeglut3-dev
+libgtk2.0-dev
