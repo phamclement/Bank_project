@@ -1,0 +1,7 @@
+conda create --name streamlit-test python=3.7
+pip install streamlit
+streamlit run streamlit_app.py
+pip install sklearn
+
+pip install streamlit-option-menu
+$ pipenv install
