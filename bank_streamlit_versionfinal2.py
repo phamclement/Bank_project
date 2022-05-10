@@ -19,7 +19,7 @@ import pandas as pd
 
 #import seaborn as sns
 # from st_aggrid import AgGrid, DataReturnMode, GridUpdateMode, GridOptionsBuilder
-import plotly.express as px
+#import plotly.express as px
 
 #from plotly.subplots import make_subplots
 #import plotly.graph_objects as go
