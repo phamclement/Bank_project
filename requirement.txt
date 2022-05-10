@@ -1,7 +1,0 @@
-
-
-streamlit==0.73.0
-pandas==1.1.5
-streamlit-option-menu
-
-streamlit run bank_streamlit_versionfinal.py
