@@ -1,12 +1,14 @@
 pip install streamlit
 pip install pipreqs
+pip install streamlit
+pip install networkx
+freeglut3-dev
+libgtk2.0-dev
 
 pipreqs /C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda
-streamlit run bank_streamlit_versionfinal.py
-pip install sklearn
 
+pip install sklearn
 pip install streamlit-option-menu
 pipenv install
 
-freeglut3-dev
-libgtk2.0-dev
+streamlit run bank_streamlit_versionfinal.py
