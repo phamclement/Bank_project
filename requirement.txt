@@ -1,32 +1,7 @@
 
-pip freeze > requirements.txt
-pip install streamlit
-pip install pipreqs
-pip install streamlit
-pip install networkx
-freeglut3-dev
-libgtk2.0-dev
-requests-dev
-pandas-dev
-geopy-dev
-numpy-dev
 
-pipreqs /C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda
-
-pip install sklearn
-pip install streamlit-option-menu
-pipenv install
-
-
---find-links=https://girder.github.io/large_image_wheels GDAL
-geemap
-geopandas
-jupyter-server-proxy
-keplergl
-leafmap
-localtileserver
-nbserverproxy
-streamlit
+streamlit==0.73.0
+pandas==1.1.5
 streamlit-option-menu
 
 streamlit run bank_streamlit_versionfinal.py
