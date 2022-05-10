@@ -9,15 +9,15 @@ Created on Sun Apr 24 21:33:44 2022
 """
 
 import streamlit as st
-#from streamlit_option_menu import option_menu
-#import streamlit.components.v1 as html
+from streamlit_option_menu import option_menu
+import streamlit.components.v1 as html
 from  PIL import Image
 import numpy as np
 #import opencv2
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
-#import seaborn as sns
+import seaborn as sns
 # from st_aggrid import AgGrid, DataReturnMode, GridUpdateMode, GridOptionsBuilder
 import plotly.express as px
 
