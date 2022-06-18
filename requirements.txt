@@ -7,3 +7,4 @@ streamlit-aggrid
 streamlit_option_menu
 seaborn
 scikit-learn
+python3.9
