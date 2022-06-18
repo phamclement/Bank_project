@@ -7,4 +7,4 @@ streamlit-aggrid
 streamlit_option_menu
 seaborn
 scikit-learn
-PIL Image
+
