@@ -1,11 +1,7 @@
 matplotlib
-datetime
 pandas
 streamlit
 plotly
 scipy
-Flask
-flask-cors
-pyforest
 streamlit-aggrid
 streamlit_option_menu
