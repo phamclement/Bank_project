@@ -3,4 +3,6 @@ datetime
 pandas
 streamlit
 plotly
-python
+python3
+protobuf
+streamlit-aggrid
