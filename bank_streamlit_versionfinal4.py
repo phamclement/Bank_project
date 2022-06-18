@@ -101,7 +101,7 @@ if choose == "I. Introduction":
     with col1: 
         st.write("")
     with col2: 
-        image1 = Image.open(r'C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda/Image2_projet_MBANK.jpg') 
+        image1 = Image.open(r'Image2_projet_MBANK.jpg') 
         st.image(image1, width = 280)
     with col3:
         st.write("")
