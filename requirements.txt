@@ -8,3 +8,4 @@ Flask
 flask-cors
 pyforest
 streamlit-aggrid
+streamlit_option_menu
