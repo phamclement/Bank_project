@@ -3,6 +3,8 @@ datetime
 pandas
 streamlit
 plotly
-python3
-protobuf
+scipy
+Flask
+flask-cors
+pyforest
 streamlit-aggrid
