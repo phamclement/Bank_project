@@ -1036,7 +1036,7 @@ if choose == "VI. Conclusion" :
     st.write(" Il est aussi le modèle le plus stable car le score sur échantillons de test (74%) n'est pas très différent avec le score sur d'échantillons d'apprentissage (75,6%) ce qui nous confirme qu’on n’est pas dans un cas de sous ou de surentraînement. Lorsqu’on applique ce modèle avec les paramètres par défaut on obtient un résultat beaucoup plus rapide que lorsqu’on le combine avec la méthode GridSearch. (En sachant que le temps réalisé avec les paramètres par défaut ne nous prend que 14 second).")
     st.write(" Avec le GridSearch, nous observons que le score sur l'échantillon d'apprentissage de modèle Random Forest est bien amélioré 76,1%, mais il est un peu surapprentissage car le score sur l'échantillon de test est inférieur que le score sur l'échantillon d'apprentissage (72,8%) ")
     if st.checkbox(" Afficher le tableau de Comparaison des méthodes de classification"):
-        image_resultat = Image.open(r'C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda/tableau_resultat.png') 
+        image_resultat = Image.open(r'tableau_resultat.png') 
         st.image(image_resultat, width = 800)
         
         
