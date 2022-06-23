@@ -817,11 +817,11 @@ if choose == "V. Modélisation":
     
     st.subheader("3. L'analyse de Composantes Principales ")
     if st.checkbox("Afficher L'analyse de Composantes Principales avec le methodes LabelEncoding"): 
-        image_ACP_Encoding = Image.open(r'C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda/Methode ACP_LabelEncoder.png') 
+        image_ACP_Encoding = Image.open(r'Methode ACP_LabelEncoder.png') 
         st.image(image_ACP_Encoding, width = 500)
         
     if st.checkbox("Afficher L'analyse de Composantes Principales avec le methodes LabelEncoding et Dummies"): 
-        image_ACP_Encoding_Dumies = Image.open(r'C:/Users/PHAM Clément/Documents/PROJET_DATASCIENTEST/bank_cda/Methode ACP_LabelEncoder_Dummies.png') 
+        image_ACP_Encoding_Dumies = Image.open(r'Methode ACP_LabelEncoder_Dummies.png') 
         st.image(image_ACP_Encoding_Dumies, width = 500)
         st.write(" Nous pouvons constater que les variables 'pdays', 'previous', 'poutcome_failure', 'poutcome_non_exist', 'contact_phone', \
                  'contact_others', 'education_tertiary', 'housing', 'month_may', 'education_secondary' sont bien représentées sur ce plan, \
